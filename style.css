@@ -1,0 +1,180 @@
+/* Umum */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+  }
+  
+  /* Header */
+  header {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+    flex: 1;
+  }
+  
+  .hero-text {
+    max-width: 500px;
+  }
+  
+  .hero-text h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    height: 350px;
+    max-height: 400px;
+  }
+  
+  /* Animasi Teks */
+  .animated-text {
+    animation: slideIn 3s ease-in-out infinite alternate;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-20px);
+      opacity: 0.5;
+    }
+    to {
+      transform: translateX(20px);
+      opacity: 1;
+    }
+  }
+
+/* education */
+#education{
+  display: grid;
+  justify-content: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.sekolah{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 80%;
+}
+
+.sekolah img{
+  max-width: 150px;
+  float: left;
+  margin-right: 50px;
+}
+
+.info{
+  color: #000;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.info h1{
+  font-size: 20px;
+  padding: 7px;
+}
+
+hr{
+  margin: 10px auto;
+  color: #000;
+  border: 1px solid black;
+}
+
+.info p{
+  font-size: 15px;
+}
+
+.jdl2{
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Protest Riot;
+  color: #000;
+  text-shadow: 2px 2px 4px;
+  padding: 7px;
+  letter-spacing: 3px;
+  margin-top: 1px;
+}
+
+/*Audio*/
+.music {
+  text-align: center;
+  align-items: center;
+  margin: 50px;
+  margin-bottom: 75px;
+}
+
+.audio{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 50px;
+}
+
+/*Video*/
+.video-container{
+  margin: 0 auto 50px auto;    /* Jarak bawah ke footer */
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: column;
+  position: relative;
+  padding-bottom: 56.25%; /* Rasio 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+
+iframe{
+  width: 70%;
+  height: 70vh;
+}
+
+.video-container h1{
+  margin-bottom: 50px;
+}
+  
+  /* Footer */
+  footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    margin-top: 50px;
+  }
+  
